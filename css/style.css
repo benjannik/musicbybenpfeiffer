@@ -1,0 +1,252 @@
+/*
+ **************************
+ * =grid overrides
+ **************************
+*/
+body {font-family: monospace;}
+
+.grid_3 { margin-left: 60px; }
+
+/*
+ **************************
+ * =miscellaneous
+ **************************
+*/
+
+.container_24 {
+	margin-top: 10px;
+}
+
+blockquote {
+	position: relative;
+	margin-bottom: 60px;
+}
+
+blockquote, blockquote p {
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+	color: #0e0e0e;
+}
+
+.main blockquote p {
+	padding-left: 30px;
+}
+
+.main blockquote p:before,
+.main blockquote p:after {
+	font-size: 40px;
+	color: #DC143C;
+	font-style: italic;
+}
+.main blockquote p:first-child:before {
+	content: '“';
+	position: absolute;
+	top: 7px;
+	left: 0;
+}
+.main blockquote p:last-child:after {
+	content: '”';
+	float: right;
+	position: absolute;
+	bottom: -14px;
+	right: 0;
+}
+
+.quote_autor {
+	float: right;
+	font-style: normal;
+	color: #666;
+	font-size: 13px;
+	margin-top: -2px;
+}
+
+p {
+	font-size: 13px;
+	line-height: 20px;
+	color: #353535;
+}
+
+header h1 {
+	background: url(../img/logo.png) no-repeat;
+	text-indent: -9999px;
+	width: 400px;
+	height: 30px;
+}
+
+/*#heading_beats {
+	background: url(../img/logo_beats.png) no-repeat;
+}*/
+
+h1, h3 {
+	letter-spacing: -1px;
+}
+
+h3 {
+	font-size: 26px;
+	text-transform: lowercase;
+	border-bottom: 1px solid #DC143C;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	line-height: 1em;
+}
+
+a {
+	color: #bfbfbf;
+	text-decoration: none;
+
+}
+
+a:hover, .selected {
+	color: black;
+	border-bottom: 2px solid #DC143C;
+	padding-bottom: 2px;
+}
+
+.button {
+	background: #242424;
+	padding: 6px;
+	text-transform: uppercase;
+	color: white;
+	font-size: 11px;
+}
+
+.button:hover {
+	color: white;
+	background: black;
+}
+
+li {
+	margin-left: 24px;
+}
+
+/*
+ **************************
+ * =header
+ **************************
+*/
+
+header {
+	overflow: hidden;
+}
+
+header h1 {
+	/*background: blue;*/
+}
+
+/*header h1 {
+	background: url(.../img/logo.png) no-repeat;
+	text-indent: -9999px;
+	width: 174px;
+	height: 23px;
+	margin: 10px 10px 22px;
+	float: left;
+}*/
+
+/*
+ **************************
+ * =nav
+ **************************
+*/
+
+nav {
+	/*background: red;*/
+	float: right;
+	margin-top: 16px;
+	margin-bottom: -10px;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	text-transform: lowercase;
+	color: #666;
+}
+
+/*
+ **************************
+ * =banner
+ **************************
+*/
+
+.banner {
+	background: url(../img/mixer.jpg) no-repeat;
+	height: 250px;
+}
+
+.callout {
+	background: url(../img/beat4.png) no-repeat;
+	height: 250px;
+	width: 600px;
+}
+
+/*
+.grid_9 { background: red; }
+.container_24 { background: green; }
+.grid_6 { background: orange; }
+*/
+
+/*
+ **************************
+ * =main
+ **************************
+*/
+
+.main {
+	margin-top: 20px;
+}
+
+/*
+ **************************
+ * =banner
+ **************************
+*/
+
+footer {
+	clear: both;
+	border-top: 1px solid #DC143C;
+	padding-top: 18px;
+	margin-top: 30px;
+}
+
+/*
+ **************************
+ * =music_production
+ **************************
+*/
+
+.music_production h2 {
+	background: url(../img/beat.png) no-repeat;
+	height: 250px;
+	color: white;
+}
+
+
+.music_production h4 {
+	font-weight: normal;
+	font-size: 20px;
+	color: #666;
+	border-bottom: 1px solid #DC143C;
+	padding-bottom: 5px;
+	padding-top: -10px;
+}
+
+.music_production h3 {
+	font-size: 26px;
+	border-bottom: 0;
+}
+
+.music_production img {
+	margin-top: -20px;
+	margin-bottom: 20px;
+	width: 250px;
+	height: 250px;
+}
+
+
+
+
+
+
